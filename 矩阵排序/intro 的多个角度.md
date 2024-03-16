@@ -1,0 +1,8 @@
+[[矩阵设计]]
+在文中，对Natural, Walsh, Cake-cutting,High Frequency and random orders进行了分析比较，然而他们没有引入构造更为复杂，重构质量更好的origami和russian-doll ordering加入比较。
+
+在本文，the Hadamard basis construction based on gray code sequence is reviewed.  我们基于该构造方式建立起1D自然序分布和二维频域之间的对应关系。使用每张pattern对应的自然序号对应的二进制数来分析每张pattern的构造过程。由此，我们通过该方式直接构造出常见的Cakecutting, Russiandoll和Origami顺序。特别的，在这种构造方式是在不构造Hadamard matrix下进行的。Furthermore，我们使用2D的索引矩阵而非前文使用的1D索引vector来对优化顺序进行记录。1D的vector只能够反映两种顺序的对应关系，该索引矩阵反映了在2D的Hadamard频域进行采样先后顺序。使用2D的方式来描述哈达玛变换建立起它和离散余弦变换和傅里叶变换的联系，使这三种变换可以使用相同的优化的采样路径和快速的构造方式。
+
+我们在仿真中比较了本文提出的优化顺序的构造方式在不同分辨率上相较原文中构造方式的优势，SPI成像到重构整个pipeline中都无需构造出完整的哈达玛测量基，因此pattern sequence generation，图像重构的时间大幅减少，成像效率由此大幅提高，在中高分辨率成像中体现得更为明显。并提供了相关的matlab代码。并且，我们对Hadamard的优化排序进行了比较。在仿真过程中，不同于之前相关论文只使用几张测试图片参与比较不同。我们使用STL10数据集中的5,000幅图像参与仿真，并在最常使用的64,128,256三个分辨率上进行了测试，综合比较了各种ordering对图像重构质量的影响。最后，我们在搭建的SPI成像系统上在不同的采样率下对256分辨率下的图像进行了分辨率板的成像实验，在结果上比较了六种优化顺序的性能。
+
+

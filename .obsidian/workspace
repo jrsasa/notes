@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "2d012234c9024700",
+    "type": "split",
+    "children": [
+      {
+        "id": "3b7153047ca496fa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "python data structure.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b33e6a649fe4adcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b050cb9b04c58b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2ac18db77e4de0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8c4fec056461813a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cbed5c531a364914",
+    "type": "split",
+    "children": [
+      {
+        "id": "682522384fb02946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "540c967a0f5f8398",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "python data structure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3b7153047ca496fa",
+  "lastOpenFiles": [
+    "depth first search.md",
+    "数据预处理.md",
+    "H.264Notes.md"
+  ]
+}

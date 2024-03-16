@@ -1,0 +1,48 @@
+[[深度学习重构]]
+3D 去噪补全网络来重构HS图像
+
+SP是一种可以通过单点探测器重构图像的技术。其已经应用到荧光显微镜，图像引导的手术，diffuse optical tomography。短波红外成像，散射介质成像，三维成像。
+考虑到一个光谱探测器，SP的概念extends to generic imaging。多光谱成像被证明with a dispersive unit followed by PMT。高光谱成像证明可以由compact fiber 光谱仪来实现，或者利用一个迈克尔逊干涉仪。这些工作focus onHSI获取技术的进步，leave the solution of image re to classical optimization schemes.（使用传统方法来完成图像的重构）
+SP测量可以model成underlying image和一些二维的pattern的点积。
+为了减少获取时间吗，it is highly desirable to reduce the number of the light patterns,这使得图像重构的问题变成一个under determined欠定的问题。传统的方法基于压缩感知的方法来解决上述问题。但是，DL已经证明了其再很多光学问题的有效性，包括图像deblur，图像重构，图像去噪和光谱和lifetime unmixing。SP也benifited  from DL
+
+
+本文中，我们提出深度学习网络来完成高光谱SP成像。和黑箱方法不同，我们提出可解释的网络
+
+在本文中，我们提出深度学习网络来实现高光谱SP成像。和黑箱的方法不同，我们提出可解释的网络，归一化重构网络 。我们的网络结合了传统的优化方法(在测量域)和。
+据我们所知，这是第一次应用归一化的Tikhonov正则化，为了develop一个三维重构方法到SP hsi的尝试。 另外，由于缺乏HSI数据集。我们提出了一种产生HSI数据集的方法。最后提出的方法在仿真和实验数据集上被验证
+
+图像获取
+SPI可以model为m=
+
+通常，原始的测量被泊松高斯
+
+**深度图像重构**
+
+
+id: be68163c75734f509f238a040b2b9db3
+parent_id: 232e9b3cb92f499a8c66414fe4052682
+created_time: 2022-01-22T08:32:57.960Z
+updated_time: 2022-01-23T08:54:53.815Z
+is_conflict: 0
+latitude: 29.71080000
+longitude: 118.33090000
+altitude: 0.0000
+author: 
+source_url: 
+is_todo: 0
+todo_due: 0
+todo_completed: 0
+source: joplin-desktop
+source_application: net.cozic.joplin-desktop
+application_data: 
+order: 0
+user_created_time: 2022-01-22T08:32:57.960Z
+user_updated_time: 2022-01-23T08:54:53.815Z
+encryption_cipher_text: 
+encryption_applied: 0
+markup_language: 1
+is_shared: 0
+share_id: 
+conflict_original_id: 
+type_: 1

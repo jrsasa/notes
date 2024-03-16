@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "2d012234c9024700",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e3e7b38b9ccd1f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0cc95b6aab936a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文文字素材/深度学习review/swin-transfomer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b3670a3065d5c7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文文字素材/深度学习论文部分/深度学习基础概念/感知机.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b33e6a649fe4adcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b050cb9b04c58b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2ac18db77e4de0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "8c4fec056461813a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9582f4adc7bd6bd8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cbed5c531a364914",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f8cc903f1114638",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b339c467d97a6bb3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "论文文字素材/深度学习论文部分/深度学习基础概念/感知机.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "6b3670a3065d5c7a",
+  "lastOpenFiles": [
+    "论文文字素材/深度学习论文部分/深度学习基础概念/VGG.md",
+    "论文文字素材/深度学习论文部分/深度学习基础概念/GAN.md",
+    "论文文字素材/深度学习review/单像素压缩成像 基于 conditional 生成对抗网络.md",
+    "论文文字素材/深度学习review/深度学习下的单像素视频成像.md",
+    "论文文字素材/深度学习review/使用GAN网络SPI.md",
+    "论文文字素材/深度学习review/swin-transfomer.md",
+    "论文文字素材/深度学习review/3D 去噪补全网络来重构HS图像.md",
+    "论文文字素材/深度学习review/光谱单像素成像.md",
+    "论文文字素材/深度学习review/文献.md",
+    "论文文字素材/欠采样快速单像素高光谱成像方案.md",
+    "论文文字素材/hd排序.md",
+    "论文文字素材/fdri.md",
+    "论文文字素材/正则.md",
+    "论文文字素材/TV.md",
+    "论文文字素材/光谱鬼成像综述.md",
+    "论文文字素材/哈达玛矩阵排序.md",
+    "论文文字素材/自适应散斑成像.md",
+    "论文文字素材/轻量化快速目标检测.md",
+    "logseq/bak/论文文字素材/欠采样快速单像素高光谱成像方案/2024-03-16T04_22_33.401Z.Desktop.md",
+    "logseq/bak/论文文字素材/欠采样快速单像素高光谱成像方案",
+    "三维成像/三维激光雷达.md",
+    "深度学习/CNN.md",
+    "深度学习基础知识学习/深度学习review/3D 去噪补全网络来重构HS图像.md",
+    "logseq/bak/深度学习基础知识学习/深度学习review/3D 去噪补全网络来重构HS图像/2024-03-16T04_22_10.895Z.Desktop.md",
+    "logseq/bak/深度学习基础知识学习/深度学习review/3D 去噪补全网络来重构HS图像",
+    "logseq/bak/深度学习基础知识学习/深度学习review",
+    "logseq/bak/深度学习基础知识学习",
+    "未训练网络深度学习/unnp review阅读.md",
+    "未训练网络深度学习/reading list.md",
+    "未训练网络深度学习/pr.md",
+    "logseq/bak/矩阵排序/理论和方法",
+    "logseq/bak/矩阵排序",
+    "logseq/bak/矩阵重构算法/闭式单步矩阵重构(DFDRI)",
+    "logseq/bak/矩阵重构算法",
+    "logseq/bak/论文随想/光谱重构的论文思考",
+    "logseq/bak/论文随想",
+    "pics/Pasted image 20231222194235.png",
+    "pics/Pasted image 20231222181347.png",
+    "pics/Pasted image 20231222182210.png",
+    "pics/Pasted image 20231222190342.png",
+    "pics/Pasted image 20231224195249.png",
+    "pics/Pasted image 20231224203610.png",
+    "未命名 4.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Pasted image 20221215101343.png",
+    "attatchment/1.jpg",
+    "attatchment/３.JPG",
+    "attatchment/２.JPG"
+  ]
+}

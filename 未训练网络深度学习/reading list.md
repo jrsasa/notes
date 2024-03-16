@@ -1,0 +1,19 @@
+[[未训练重构]]
+There are several articles and resources available that discuss the concept of untrained neural network priors (UNNP) and their applications. Here are some notable ones:
+
+1. **"Untrained Neural Network Priors for Inverse Imaging Problems: A Survey"** - This article discusses a new paradigm where deep models are trained using a single image, known as untrained neural network prior (UNNP). This method has been proposed to solve a variety of inverse tasks, such as restoration and inpainting, and has led to various applications and variants of UNNP【12†source】.
+
+2. **"Untrained Low-Rank Neural Network Prior for Multi-Dimensional Image Recovery"** - This study focuses on untrained neural network priors for multi-dimensional image recovery. It notes that previous studies have relied on over-parameterized untrained neural networks, leading to unstable behavior【13†source】.
+
+3. **"Phase Imaging with an Untrained Neural Network" (Published in Nature)** - This article highlights the use of a physics-enhanced deep neural network, which can be utilized without prior training. This approach is notable for eliminating the need for extensive pre-training typically associated with deep learning models【14†source】.
+
+4. **"Algorithmic Guarantees for Inverse Imaging with Untrained Network"** - This research explores new applications and theories for untrained neural network priors, particularly in solving linear inverse problems such as compressive sensing, and non-linear problems like compressive phase retrieval. The study models images to lie in the range of an untrained deep generative network with a fixed seed【15†source】.
+
+5. **"Regularized Shallow Image Prior for Electrical Impedance" (Published on arXiv.org)** - In this paper, the use of UNNP-based algorithms for tomographic imaging is discussed. These algorithms are noted for their superior performance compared to traditional hand-crafted priors and do not require training【16†source】.
+
+These articles and studies provide a comprehensive overview of the current state of research and applications of untrained neural network priors in various imaging and computational tasks. They represent the cutting edge in this area of deep learning research, highlighting both the potential and the challenges of using untrained neural networks for complex problem-solving.
+
+1.Compressed sensing with deep image prior and learned regularization
+2.Injecting image priors into learnable compressive sub- sampling
+3. Measuring robustness in deep learning based compressive sensing
+4.Training-free deep generative networks for compressed sensing of neural action potentials
